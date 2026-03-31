@@ -1,0 +1,7 @@
+for_device/
+bin/
+*.swp
+.*.swp
+gen/
+internal-mir/
+external-mir/

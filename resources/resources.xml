@@ -1,0 +1,82 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+	<complications>
+	    <complication id="1"
+			access="public"
+			icon="@Drawables.NoteIcon"
+			shortLabel="@Strings.note1_default_label"
+			longLabel="@Strings.long_label_1"
+			glancePreview="true">
+			<faceIt defaultText="@Strings.note1_default_label" />
+	    </complication>
+	    <complication id="2"
+			access="public"
+			icon="@Drawables.NoteIcon"
+			shortLabel="@Strings.note2_default_label"
+			longLabel="@Strings.long_label_2"
+			glancePreview="false">
+			<faceIt defaultText="@Strings.note2_default_label" />
+	    </complication>
+	    <complication id="3"
+			access="public"
+			icon="@Drawables.NoteIcon"
+			shortLabel="@Strings.note3_default_label"
+			longLabel="@Strings.long_label_3"
+			glancePreview="false">
+			<faceIt defaultText="@Strings.note3_default_label" />
+	    </complication>
+	</complications>
+	<drawables>
+	    <bitmap id="LauncherIcon" filename="note_40x40.svg" dithering="none" />
+	    <bitmap id="NoteIcon" filename="note_40x40.svg" dithering="none" />
+	    <bitmap id="saveIcon" personality="system_icon_positive__check" />
+	</drawables>
+	<properties>
+		<property id="name1" type="string"></property>
+		<property id="name2" type="string"></property>
+		<property id="name3" type="string"></property>
+		<property id="note1_special_symbol" type="string">🔑</property>
+		<property id="note2_special_symbol" type="string">🔑</property>
+		<property id="note3_special_symbol" type="string">🔑</property>
+		<property id="editlabel1" type="boolean">false</property>
+		<property id="editlabel2" type="boolean">false</property>
+		<property id="editlabel3" type="boolean">false</property>
+	</properties>
+	<settings>
+		<setting propertyKey="@Properties.name1"
+		         title="@Strings.setting_note1_name">
+			<settingConfig type="alphaNumeric"/>
+		</setting>
+		<setting propertyKey="@Properties.note1_special_symbol"
+		         title="@Strings.setting_note1_special_symbol">
+			<settingConfig type="alphaNumeric" maxLength="3"/>
+		</setting>
+		<setting propertyKey="@Properties.editlabel1"
+		         title="@Strings.setting_note1_editlabel">
+			<settingConfig type="boolean"/>
+		</setting>
+		<setting propertyKey="@Properties.name2"
+		         title="@Strings.setting_note2_name">
+			<settingConfig type="alphaNumeric"/>
+		</setting>
+		<setting propertyKey="@Properties.note2_special_symbol"
+		         title="@Strings.setting_note2_special_symbol">
+			<settingConfig type="alphaNumeric" maxLength="3"/>
+		</setting>
+		<setting propertyKey="@Properties.editlabel2"
+		         title="@Strings.setting_note2_editlabel">
+			<settingConfig type="boolean"/>
+		</setting>
+		<setting propertyKey="@Properties.name3"
+		         title="@Strings.setting_note3_name">
+			<settingConfig type="alphaNumeric"/>
+		</setting>
+		<setting propertyKey="@Properties.note3_special_symbol"
+		         title="@Strings.setting_note3_special_symbol">
+			<settingConfig type="alphaNumeric" maxLength="3"/>
+		</setting>
+		<setting propertyKey="@Properties.editlabel3"
+		         title="@Strings.setting_note3_editlabel">
+			<settingConfig type="boolean"/>
+		</setting>
+	</settings>
+</resources>

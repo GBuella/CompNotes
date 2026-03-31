@@ -1,0 +1,6 @@
+project.manifest = manifest.xml
+# round-280x280.resourcePath = $(round-280x280.resourcePath);largericon_resources
+round-390x390.resourcePath = $(round-390x390.resourcePath);largericon_resources
+round-416x416.resourcePath = $(round-416x416.resourcePath);largericon_resources
+rectangle-448x486.resourcePath = $(rectangle-448x486.resourcePath);largericon_resources
+round-454x454.resourcePath = $(round-454x454.resourcePath);largericon_resources

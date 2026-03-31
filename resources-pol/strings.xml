@@ -1,0 +1,16 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="menu_label_about">O CompNotes</string>
+    <string id="note">Notka</string>
+    <string id="note1_default_label">1. notka</string>
+    <string id="note2_default_label">2. notka</string>
+    <string id="note3_default_label">3. notka</string>
+    <string id="setting_note1_name">Nazwa 1. notki</string>
+    <string id="setting_note2_name">Nazwa 2. notki</string>
+    <string id="setting_note3_name">Nazwa 3. notki</string>
+    <string id="setting_note1_special_symbol">Klawisz 1. notki</string>
+    <string id="setting_note2_special_symbol">Klawisz 2. notki</string>
+    <string id="setting_note3_special_symbol">Klawisz 3. notki</string>
+    <string id="setting_note1_editlabel">Edytowalna etykieta 1. notki</string>
+    <string id="setting_note2_editlabel">Edytowalna etykieta 2. notki</string>
+    <string id="setting_note3_editlabel">Edytowalna etykieta 3. notki</string>
+</strings>

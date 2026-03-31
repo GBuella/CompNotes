@@ -1,0 +1,16 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="menu_label_about">Névjegy</string>
+	<string id="note">Jegyzet</string>
+    <string id="note1_default_label">1. jegyzet</string>
+    <string id="note2_default_label">2. jegyzet</string>
+    <string id="note3_default_label">3. jegyzet</string>
+    <string id="setting_note1_name">1. jegyzet neve</string>
+    <string id="setting_note2_name">2. jegyzet neve</string>
+    <string id="setting_note3_name">3. jegyzet neve</string>
+    <string id="setting_note1_special_symbol">1. jegyzet választható billentyű</string>
+    <string id="setting_note2_special_symbol">2. jegyzet választható billentyű</string>
+    <string id="setting_note3_special_symbol">3. jegyzet választható billentyű</string>
+    <string id="setting_note1_editlabel">1. jegyzet cimkéje szerkeszthető</string>
+    <string id="setting_note2_editlabel">2. jegyzet cimkéje szerkeszthető</string>
+    <string id="setting_note3_editlabel">3. jegyzet cimkéje szerkeszthető</string>
+</strings>

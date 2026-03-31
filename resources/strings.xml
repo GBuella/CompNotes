@@ -1,0 +1,21 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName" translatable="false">CompNotes</string>
+    <string id="long_label_1" translatable="false">CompNote1</string>
+    <string id="long_label_2" translatable="false">CompNote2</string>
+    <string id="long_label_3" translatable="false">CompNote3</string>
+    <string id="menu_label_about">About</string>
+    <string id="note">Note</string>
+    <string id="note1_default_label">1. note</string>
+    <string id="note2_default_label">2. note</string>
+    <string id="note3_default_label">3. note</string>
+    <string id="setting_note1_name">Name of 1.note</string>
+    <string id="setting_note2_name">Name of 2.note</string>
+    <string id="setting_note3_name">Name of 3.note</string>
+    <string id="setting_note1_special_symbol">1. note keypad special symbol</string>
+    <string id="setting_note2_special_symbol">2. note keypad special symbol</string>
+    <string id="setting_note3_special_symbol">3. note keypad special symbol</string>
+    <string id="setting_note1_editlabel">1. note has as editable label</string>
+    <string id="setting_note2_editlabel">2. note has as editable label</string>
+    <string id="setting_note3_editlabel">3. note has as editable label</string>
+</strings>
